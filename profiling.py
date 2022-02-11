@@ -18,7 +18,8 @@ def run_profiling(df):
 
 
 def export_profiling(prof):
-    prof.to_file(output_file='output.html')
+    filename = "%s.csv" % local_filename
+    prof.to_file(output_file=filename)
 
 
 if __name__ == '__main__':
