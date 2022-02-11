@@ -1,3 +1,4 @@
 .vscode/settings.json
-*.csv
-*.html
+data/*.csv
+output.html
+.DS_Store

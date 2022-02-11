@@ -5,4 +5,4 @@ helper script that takes a csv and does exploratory data analysis using [pandas_
 So if `pandas_profiling --config_file config.yaml [YOUR_FILE.csv]` fails, I use this.
 
 # to run
-`pipenv run python3 profiling.py 'YOUR_FILE.csv'`
+`pipenv run python3 profiling.py 'data/YOUR_FILE.csv'`
